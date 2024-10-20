@@ -1,0 +1,439 @@
+.dashboard-wrapper{
+    width: 100%;
+    height: 100vh;
+    /* background-color:pink ; */
+    display: flex;
+}
+
+.side-nav{
+    width: 25%;
+    background-color: rgba(7, 6, 23, 0.893);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.main-container{
+    width: 75%;
+    background-color: #dfd0d0a5;
+    padding: 10px;
+}
+.profile-info{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.profile-info img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+.profile-info{
+    border-bottom: 3px solid #eee;
+}
+
+.menu{
+    display: flex;
+    flex-direction:column;
+    padding-top: 8px;
+}
+
+.menu a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+.menu-link{
+    width: 100%;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+.menu-link:hover{
+    background-color: rgba(205, 180, 16, 0.903);
+    color: black;
+    font-size: 24px;
+    font-weight: 380;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.new-invoice-heading{
+    font-size: 26px;
+    color:rgba(0, 0, 0, 0.737);
+    font-weight: 600;
+}
+
+.new-invoice-form{
+    width: 100%;
+}
+
+.first-row{
+    display: flex;
+    gap: 2%;
+}
+
+.first-row input{
+    width: 32%;
+    padding: 8px;
+    margin-right: 7px;
+    margin-top: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.277);
+}
+
+.add-btn{
+    margin-top: 10px;
+    padding: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    background-color:  rgba(205, 180, 16, 0.94);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1d0404;
+    font-size: 12px;
+    font-weight: 580;
+}
+
+.add-btn:hover{
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+
+.product-wrapper{
+    width: 100%;
+    min-height:300px ;
+    padding: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+.product-list{
+  display: flex;
+}
+
+.product-list p{
+    text-align: left;
+    width: 20%;
+    
+}
+
+.total-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.578);
+    padding: 10px;
+
+}
+
+.total-wrapper p{
+    width: 20%;
+    color: rgb(33, 33, 1);
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
+.box p{
+    width: 20%;
+    text-transform: capitalize;
+}
+
+.delete-btn{
+    padding:4px;
+    background-color: rgba(249, 5, 5, 0.955);
+    color:white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.view-btn{
+    background-color: green;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.invoice-wrapper{
+    width: 60%;
+    background-color: white;
+    min-height: 90vh;
+    margin: auto;
+    margin-top: 18px;
+    padding: 20px;
+
+}
+
+.invoice-header{
+    position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.company-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 10px;
+}
+
+.customer-detail h1{
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.cName{
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.logoemail{
+    margin-bottom: 10px;
+}
+
+.product-table-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+th{
+    background-color: royalblue;
+    color: white;
+}
+
+.product-table{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+tfoot{
+    background-color: royalblue;
+    color: white;
+}
+
+.print-btn{
+    border: none;
+    background-color:royalblue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.print-btn:hover{
+    font-size: 14px;
+    font-weight: bold;
+    transition: .8s;
+    background-color:rgb(27, 76, 225);
+}
+
+.invoice-top-header{
+    position: absolute;
+    font-size: 16;
+    right: 6vw;
+    top: 6vh;
+}
+
+.logout-btn{
+    margin: 10px;
+    height: 20px;
+    width: 50px;
+    color: rgba(0, 0, 0, 0.823);
+    font-weight: bold;
+    background-color: rgba(255, 225, 0, 0.829);
+    border: none;
+    border-radius: 5px;
+}
+
+.setting-wrapper{
+    margin-left: 24vw;
+    margin-top: 50px;
+    width: 40%;
+    height: 45vh;
+    background-color: white;
+    
+}
+
+.update-cName{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.update-cName input{
+    width: 80%;
+    padding: 8px;
+    border:1px solid #33333369;
+    border-radius: 5px;
+}
+.update-cName-btn{
+    width: 80%;
+    padding: 8px;
+}
+.update-cName-btn{
+    border: none;
+    background-color: rgba(255, 234, 0, 0.756);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.update-cName-btn:hover{
+    font-size: 13px;
+    background-color: royalblue;
+    color: white;
+    transition: .6s;
+    
+}
+
+
+.update-pic{
+    margin: 10px;
+    border: none;
+    background-color: rgba(255, 234, 0, 0.756);
+    color: black;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.update-pic:hover{
+    background-color: royalblue;
+    color: white;
+    transition: .6s;
+}
+
+.setting{
+    padding-left: .1vw;
+    font-size: 30px;
+    color:white;
+    font-weight: 800;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgb(255, 196, 0);
+}
+
+.home-first-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.home-box{
+    width: 32.5%;
+    height: 27vh;
+    box-shadow: 1px 2px 6px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #eeeeeec8;
+    text-shadow: 2px 2px 5px rgba(6, 5, 0, 0.536);
+    gap: 8px;
+}
+
+.box1{
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.923),rgba(0, 42, 255, 0.825));
+}
+.box2{
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.923),rgba(255, 0, 64, 0.825));
+}
+.box3{
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.923),rgba(0, 255, 8, 0.825));
+}
+
+.home-second-row{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.chat-box{
+    width: 60%;
+    height: 54vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.recent-invoice-list{
+    width: 36%;
+    height: 54vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.recent-invoice-list h1{
+ font-size: 18px;
+ text-align: center;
+ padding: 10px;
+ background-color: rgba(0, 119, 255, 0.592);
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ 
+}
+.recent-invoice-list div{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.recent-invoice-list div:hover{
+    background-color: #eee;
+    
+}
+.recent-invoice-list p{
+    width: 50%;
+    padding: 10px;
+}
+
+.no-invoice-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.no-invoice-wrapper p{
+    font-size: 23px;
+    /* font-weight: bold; */
+}
+.no-invoice-wrapper button{
+    border: none;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.663);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.no-invoice-wrapper button:hover{
+    background-color: rgba(207, 181, 13, 0.663);
+}

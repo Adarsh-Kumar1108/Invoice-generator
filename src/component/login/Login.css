@@ -1,0 +1,115 @@
+.login-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(69, 42, 42); */
+    height: 100vh;
+    width: 100%;
+    /* color: wheat; */
+    background-image: linear-gradient(90deg, rgb(0, 0, 0), blue,rgb(78, 128, 173));
+    
+}
+.login-container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(0, 2, 0, 0.856);
+    height: 57vh;
+    width: 70%;
+    box-shadow: 8px 8px 10px rgba(8, 0, 0, 0.792);
+    /* border-radius: 10px; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.login-img{
+    background-image: url(https://th.bing.com/th/id/OIP.GPFEY6kfgxbsja6gmrW6rwAAAA?rs=1&pid=ImgDetMain);
+    /* display: block; */
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-size: cover;
+}
+.login-inbox{
+    /* background-color: red; */
+    height: 100%;
+    width: 50%;
+    /* border-radius: 8px; */
+    padding: 30px 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.login-inbox h1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: rgba(235, 229, 229, 0.86);
+    padding-bottom: 25px;
+}
+
+.login-inbox input{
+    padding: 8px;
+    border-radius: 12px;
+    margin: 5px;
+    border-width:1px ;
+}
+.login-input{
+    width: 100%;
+}
+.login-btn{
+    padding: 8px;
+    margin: 5px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 550;
+    font-size: 14px;
+    color: rgba(1, 0, 0, 0.923);
+    background-color: rgba(221, 195, 50, 0.697);
+    
+}
+
+.login-btn i{
+    color: white;
+}
+
+.login-btn:hover{
+    background-color: rgba(221, 195, 50, 0.916);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+a{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding-left: 14px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+a:hover{
+    color: rgb(182, 176, 220);
+    text-shadow: 2px 15px 2.5px rgba(255, 255, 255, 0.5);
+    transition: 1s;
+}
+.input-logo{
+    position: relative;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+
+.image-preview{
+    height:35px;
+    width: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: 71vh;
+    right: 30vw;
+}
+
+
